@@ -6,24 +6,49 @@
     <title>Projections</title>
 </head>
 <body>
-    <h1>In this project I learned how to display images in different projections</h1>
+    <h1>QGIS and Projections - a GEOG 370 project</h1>
     
-    <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
-    
-    <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
-    <a href=".//maps/4326.png">
-    <img src=".//maps/4326.png" alt="WGS84" width='500px'>
+    <!-- <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2> -->
+    <p>To display different projections in QGIS, you have to change the project coordinate reference system (CRS) in project properties. This can be accessed by pressing the current ESPG or ESRI number in the right corner, or 'project' then 'properties' on the top menu bar. You then select the desired CRS using either the authority ID or CRS name. This applies the CRS to the project, creating different projections. </p>
+    <p>By Meagan Harrington</p>
+    <h2>North Pole Azimuthal Equidistant Projection</h2>
+    <h3>This is an equidistant azimuthal projection, meaning direction and distance are preserved. Size and shape are distored, particularly towards the edge of the projection. All meridians are straight, with the center point defined as the North Pole. This style of projection is used in the UN logo.</h3>
+    <a href="./maps/North Pole Azimuthal Equidistant 102016.png">
+    <img src="./maps/North Pole Azimuthal Equidistant 102016.png" alt="North Pole Azimuthal Equidistant" width='500px'>
     </a>
-    <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
-    <a href=".//maps/54043.png">
-    <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
+    <h2>Winkel Tripel Projection</h2>
+    <h3>This map aims to minimise distortion of area, distance and direction by averaging the Aitoff and equirectangular projection. Distortion increases towards the edges, away from the central meridian. Polar areas are particularly exaggerated. It is used by National Geographic.</h3>
+    <a href="./maps/winkel tripel 53018.png">
+    <img src="./maps/winkel tripel 53018.png" alt="Winkel Tripel" width='500px'>
     </a>
-    <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
-    <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
-    <p></p>
+    <h2>Mercator Projection</h2>
+    <h3>This is a conformal projection. Direction, angles and shapes are preserved - this is because the projection was originally designed for navigation. Shape is distored, particularly towards the poles. Greenland is a key example, appearing equal in size to Africa despite an actual 14-fold difference in size.</h3>
+    <a href="./maps/world mercator 54004.png">
+    <img src="./maps/world mercator 54004.png" alt="Mercator" width='500px'>
+    </a>
+    <h2>Pseudo (web) Mercator Projection</h2>
+    <h3>This is a varient of the Mercator projection, featured directly above, used mainly in web mapping. Angles and distances are preserved, making it a useful tool for navigation. However, size is often distorted. It differs from the standard Mercator projection as it uses spherical formulae, whereas elliptical formulae are used in the standard Mercator projection.</h3>
+    <a href="./maps/World Pseudo Mercator 3857.png">
+    <img src="./maps/World Pseudo Mercator 3857.png" alt="Pseudo Mercator" width='500px'>
+    </a>
+    <h2>World Cylindrical Equal Area Projection</h2>
+    <h3>This is an equal area projection, though shape is often greatly distorted. This is exaggerated closer to the poles. There is great distortion of scale close to polar regions, too.</h3>
+    <a href="./maps/world cylindrical equal area 54034.png">
+    <img src="./maps/world cylindrical equal area 54034.png" alt="Cylindrical Equal Area" width='500px'>
+    </a>
+    <h2>World Equidistant Conic Projection</h2>
+    <h3>In this conic projection, distance is preserved along meridians. Shape, angles and area are distorted, increasingly so towards the edges of the projection.</h3>
+    <a href="./maps/world equidistant conic 54027.png">
+    <img src="./maps/world equidistant conic 54027.png" alt="Equidistant Conic" width='500px'>
+    </a>
+    <h2>Sphere Craster Parabolic Projection</h2>
+    <h3>This is an equivalent, or equal-area, projection. Shape is distoreted, particularly closer to the edge of the projection due to a significant bulge. The central medidian is around half the length of the equator, creating points at each pole.</h3>
+    <a href="./maps/Sphere Craster Parabolic 53046.png">
+    <img src="./maps/Sphere Craster Parabolic 53046.png" alt="Sphere Craster Parabolic" width='500px'>
+    </a>
+    <!-- <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2> -->
+    <!-- <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3> -->
+    <!-- <p></p> -->
     <h2>Data used for this project</h2>
     <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
 </body>
