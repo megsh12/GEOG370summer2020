@@ -3,10 +3,10 @@
 "name": "chapel hill points geoJSON",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "id": 1, "key points": "football stadium", "notes": null }, "geometry": { "type": "Point", "coordinates": [ -79.04786763276158, 35.906990469860318 ] } },
-{ "type": "Feature", "properties": { "id": 2, "key points": "bell tower", "notes": null }, "geometry": { "type": "Point", "coordinates": [ -79.049236151067802, 35.908613010792038 ] } },
-{ "type": "Feature", "properties": { "id": 3, "key points": "morehead sundial", "notes": null }, "geometry": { "type": "Point", "coordinates": [ -79.05095738093911, 35.914458194618781 ] } },
-{ "type": "Feature", "properties": { "id": 4, "key points": "morehead planetarium", "notes": null }, "geometry": { "type": "Point", "coordinates": [ -79.050836160489922, 35.913861642938429 ] } },
-{ "type": "Feature", "properties": { "id": 5, "key points": "old well", "notes": null }, "geometry": { "type": "Point", "coordinates": [ -79.051242823424985, 35.912060298053575 ] } }
+{ "type": "Feature", "properties": { "id": 1, "key points": "football stadium", "notes": "UNC's home football stadium - student athlete centre and football centre both attached. Key campus landmark." }, "geometry": { "type": "Point", "coordinates": [ -79.04786763276158, 35.906990469860318 ] } },
+{ "type": "Feature", "properties": { "id": 2, "key points": "bell tower", "notes": "Location of senior bell tower climb - a tradition for graduating seniors. 52m tall, it was completed in 1931." }, "geometry": { "type": "Point", "coordinates": [ -79.049236151067802, 35.908613010792038 ] } },
+{ "type": "Feature", "properties": { "id": 3, "key points": "morehead sundial", "notes": "36-foot sundial beside the planetarium - one of the largest sundials in the world." }, "geometry": { "type": "Point", "coordinates": [ -79.05095738093911, 35.914458194618781 ] } },
+{ "type": "Feature", "properties": { "id": 4, "key points": "morehead planetarium", "notes": "Home of many education programs and school clubs for local schools. Established in 1949. One of the biggest in the USA." }, "geometry": { "type": "Point", "coordinates": [ -79.050836160489922, 35.913861642938429 ] } },
+{ "type": "Feature", "properties": { "id": 5, "key points": "old well", "notes": "Built in 1897 as UNC's only water source. Now serves as a water fountain, used most on FDOC by students hoping for a 4.0" }, "geometry": { "type": "Point", "coordinates": [ -79.051242823424985, 35.912060298053575 ] } }
 ]
 }
